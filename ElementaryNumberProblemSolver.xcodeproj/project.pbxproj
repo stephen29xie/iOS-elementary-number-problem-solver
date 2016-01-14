@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0629D6321C48314F00355E4D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0629D6311C48314F00355E4D /* Default-568h@2x.png */; };
+		0629D6761C483B7800355E4D /* blackboard.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0629D66F1C483B7800355E4D /* blackboard.jpg */; };
+		0629D6781C483B7800355E4D /* functionsScreenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = 0629D6711C483B7800355E4D /* functionsScreenshot.png */; };
+		0629D6791C483B7800355E4D /* ldeScreenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = 0629D6721C483B7800355E4D /* ldeScreenshot.png */; };
+		0629D67A1C483B7800355E4D /* linearcongruencesScreenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = 0629D6731C483B7800355E4D /* linearcongruencesScreenshot.png */; };
+		0629D67B1C483B7800355E4D /* paper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0629D6741C483B7800355E4D /* paper.jpg */; };
+		0629D67C1C483B7800355E4D /* primesScreenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = 0629D6751C483B7800355E4D /* primesScreenshot.png */; };
+		0629D68E1C483B8700355E4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0629D67E1C483B8700355E4D /* AppDelegate.swift */; };
+		0629D68F1C483B8700355E4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0629D67F1C483B8700355E4D /* Assets.xcassets */; };
+		0629D6901C483B8700355E4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0629D6801C483B8700355E4D /* LaunchScreen.storyboard */; };
+		0629D6911C483B8700355E4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0629D6821C483B8700355E4D /* Main.storyboard */; };
+		0629D6921C483B8700355E4D /* CongruenceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0629D6841C483B8700355E4D /* CongruenceViewController.swift */; };
+		0629D6931C483B8700355E4D /* gcd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0629D6851C483B8700355E4D /* gcd.swift */; };
+		0629D6941C483B8700355E4D /* GcdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0629D6861C483B8700355E4D /* GcdViewController.swift */; };
+		0629D6951C483B8700355E4D /* lde.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0629D6871C483B8700355E4D /* lde.swift */; };
+		0629D6961C483B8700355E4D /* LdeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0629D6881C483B8700355E4D /* LdeViewController.swift */; };
+		0629D6971C483B8700355E4D /* linearcongruence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0629D6891C483B8700355E4D /* linearcongruence.swift */; };
+		0629D6981C483B8700355E4D /* LinearCongruenceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0629D68A1C483B8700355E4D /* LinearCongruenceViewController.swift */; };
+		0629D6991C483B8700355E4D /* modulo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0629D68B1C483B8700355E4D /* modulo.swift */; };
+		0629D69A1C483B8700355E4D /* primes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0629D68C1C483B8700355E4D /* primes.swift */; };
+		0629D69B1C483B8700355E4D /* PrimesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0629D68D1C483B8700355E4D /* PrimesViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0629D6151C482DE900355E4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0629D5F81C482DE800355E4D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0629D5FF1C482DE900355E4D;
+			remoteInfo = ElementaryNumberProblemSolver;
+		};
+		0629D6201C482DE900355E4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0629D5F81C482DE800355E4D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0629D5FF1C482DE900355E4D;
+			remoteInfo = ElementaryNumberProblemSolver;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0629D6001C482DE900355E4D /* ElementaryNumberProblemSolver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ElementaryNumberProblemSolver.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0629D6141C482DE900355E4D /* ElementaryNumberProblemSolverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElementaryNumberProblemSolverTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0629D61F1C482DE900355E4D /* ElementaryNumberProblemSolverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElementaryNumberProblemSolverUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0629D6311C48314F00355E4D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "Screenshots & Wallpapers/Default-568h@2x.png"; sourceTree = "<group>"; };
+		0629D66F1C483B7800355E4D /* blackboard.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = blackboard.jpg; sourceTree = "<group>"; };
+		0629D6701C483B7800355E4D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		0629D6711C483B7800355E4D /* functionsScreenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = functionsScreenshot.png; sourceTree = "<group>"; };
+		0629D6721C483B7800355E4D /* ldeScreenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ldeScreenshot.png; sourceTree = "<group>"; };
+		0629D6731C483B7800355E4D /* linearcongruencesScreenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = linearcongruencesScreenshot.png; sourceTree = "<group>"; };
+		0629D6741C483B7800355E4D /* paper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = paper.jpg; sourceTree = "<group>"; };
+		0629D6751C483B7800355E4D /* primesScreenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = primesScreenshot.png; sourceTree = "<group>"; };
+		0629D67E1C483B8700355E4D /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0629D67F1C483B8700355E4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0629D6811C483B8700355E4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0629D6831C483B8700355E4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0629D6841C483B8700355E4D /* CongruenceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CongruenceViewController.swift; sourceTree = "<group>"; };
+		0629D6851C483B8700355E4D /* gcd.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = gcd.swift; sourceTree = "<group>"; };
+		0629D6861C483B8700355E4D /* GcdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GcdViewController.swift; sourceTree = "<group>"; };
+		0629D6871C483B8700355E4D /* lde.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = lde.swift; sourceTree = "<group>"; };
+		0629D6881C483B8700355E4D /* LdeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LdeViewController.swift; sourceTree = "<group>"; };
+		0629D6891C483B8700355E4D /* linearcongruence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = linearcongruence.swift; sourceTree = "<group>"; };
+		0629D68A1C483B8700355E4D /* LinearCongruenceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinearCongruenceViewController.swift; sourceTree = "<group>"; };
+		0629D68B1C483B8700355E4D /* modulo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = modulo.swift; sourceTree = "<group>"; };
+		0629D68C1C483B8700355E4D /* primes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = primes.swift; sourceTree = "<group>"; };
+		0629D68D1C483B8700355E4D /* PrimesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrimesViewController.swift; sourceTree = "<group>"; };
+		0629D69E1C483F4200355E4D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0629D5FD1C482DE900355E4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0629D6111C482DE900355E4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0629D61C1C482DE900355E4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0629D5F71C482DE800355E4D = {
+			isa = PBXGroup;
+			children = (
+				0629D6311C48314F00355E4D /* Default-568h@2x.png */,
+				0629D67D1C483B8700355E4D /* ElementaryNumberProblemSolver */,
+				0629D66E1C483B7800355E4D /* Screenshots & Wallpapers */,
+				0629D6011C482DE900355E4D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0629D6011C482DE900355E4D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0629D6001C482DE900355E4D /* ElementaryNumberProblemSolver.app */,
+				0629D6141C482DE900355E4D /* ElementaryNumberProblemSolverTests.xctest */,
+				0629D61F1C482DE900355E4D /* ElementaryNumberProblemSolverUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0629D66E1C483B7800355E4D /* Screenshots & Wallpapers */ = {
+			isa = PBXGroup;
+			children = (
+				0629D66F1C483B7800355E4D /* blackboard.jpg */,
+				0629D6701C483B7800355E4D /* Default-568h@2x.png */,
+				0629D6711C483B7800355E4D /* functionsScreenshot.png */,
+				0629D6721C483B7800355E4D /* ldeScreenshot.png */,
+				0629D6731C483B7800355E4D /* linearcongruencesScreenshot.png */,
+				0629D6741C483B7800355E4D /* paper.jpg */,
+				0629D6751C483B7800355E4D /* primesScreenshot.png */,
+			);
+			path = "Screenshots & Wallpapers";
+			sourceTree = "<group>";
+		};
+		0629D67D1C483B8700355E4D /* ElementaryNumberProblemSolver */ = {
+			isa = PBXGroup;
+			children = (
+				0629D67E1C483B8700355E4D /* AppDelegate.swift */,
+				0629D67F1C483B8700355E4D /* Assets.xcassets */,
+				0629D6801C483B8700355E4D /* LaunchScreen.storyboard */,
+				0629D6821C483B8700355E4D /* Main.storyboard */,
+				0629D6841C483B8700355E4D /* CongruenceViewController.swift */,
+				0629D6851C483B8700355E4D /* gcd.swift */,
+				0629D6861C483B8700355E4D /* GcdViewController.swift */,
+				0629D6871C483B8700355E4D /* lde.swift */,
+				0629D6881C483B8700355E4D /* LdeViewController.swift */,
+				0629D6891C483B8700355E4D /* linearcongruence.swift */,
+				0629D68A1C483B8700355E4D /* LinearCongruenceViewController.swift */,
+				0629D68B1C483B8700355E4D /* modulo.swift */,
+				0629D68C1C483B8700355E4D /* primes.swift */,
+				0629D68D1C483B8700355E4D /* PrimesViewController.swift */,
+				0629D69E1C483F4200355E4D /* Info.plist */,
+			);
+			path = ElementaryNumberProblemSolver;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0629D5FF1C482DE900355E4D /* ElementaryNumberProblemSolver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0629D6281C482DE900355E4D /* Build configuration list for PBXNativeTarget "ElementaryNumberProblemSolver" */;
+			buildPhases = (
+				0629D5FC1C482DE900355E4D /* Sources */,
+				0629D5FD1C482DE900355E4D /* Frameworks */,
+				0629D5FE1C482DE900355E4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ElementaryNumberProblemSolver;
+			productName = ElementaryNumberProblemSolver;
+			productReference = 0629D6001C482DE900355E4D /* ElementaryNumberProblemSolver.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0629D6131C482DE900355E4D /* ElementaryNumberProblemSolverTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0629D62B1C482DE900355E4D /* Build configuration list for PBXNativeTarget "ElementaryNumberProblemSolverTests" */;
+			buildPhases = (
+				0629D6101C482DE900355E4D /* Sources */,
+				0629D6111C482DE900355E4D /* Frameworks */,
+				0629D6121C482DE900355E4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0629D6161C482DE900355E4D /* PBXTargetDependency */,
+			);
+			name = ElementaryNumberProblemSolverTests;
+			productName = ElementaryNumberProblemSolverTests;
+			productReference = 0629D6141C482DE900355E4D /* ElementaryNumberProblemSolverTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0629D61E1C482DE900355E4D /* ElementaryNumberProblemSolverUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0629D62E1C482DE900355E4D /* Build configuration list for PBXNativeTarget "ElementaryNumberProblemSolverUITests" */;
+			buildPhases = (
+				0629D61B1C482DE900355E4D /* Sources */,
+				0629D61C1C482DE900355E4D /* Frameworks */,
+				0629D61D1C482DE900355E4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0629D6211C482DE900355E4D /* PBXTargetDependency */,
+			);
+			name = ElementaryNumberProblemSolverUITests;
+			productName = ElementaryNumberProblemSolverUITests;
+			productReference = 0629D61F1C482DE900355E4D /* ElementaryNumberProblemSolverUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0629D5F81C482DE800355E4D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Stephen Xie";
+				TargetAttributes = {
+					0629D5FF1C482DE900355E4D = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = NJ2W9CLDB6;
+					};
+					0629D6131C482DE900355E4D = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = NJ2W9CLDB6;
+						TestTargetID = 0629D5FF1C482DE900355E4D;
+					};
+					0629D61E1C482DE900355E4D = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = NJ2W9CLDB6;
+						TestTargetID = 0629D5FF1C482DE900355E4D;
+					};
+				};
+			};
+			buildConfigurationList = 0629D5FB1C482DE800355E4D /* Build configuration list for PBXProject "ElementaryNumberProblemSolver" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0629D5F71C482DE800355E4D;
+			productRefGroup = 0629D6011C482DE900355E4D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0629D5FF1C482DE900355E4D /* ElementaryNumberProblemSolver */,
+				0629D6131C482DE900355E4D /* ElementaryNumberProblemSolverTests */,
+				0629D61E1C482DE900355E4D /* ElementaryNumberProblemSolverUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0629D5FE1C482DE900355E4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0629D6761C483B7800355E4D /* blackboard.jpg in Resources */,
+				0629D6781C483B7800355E4D /* functionsScreenshot.png in Resources */,
+				0629D67B1C483B7800355E4D /* paper.jpg in Resources */,
+				0629D6901C483B8700355E4D /* LaunchScreen.storyboard in Resources */,
+				0629D6321C48314F00355E4D /* Default-568h@2x.png in Resources */,
+				0629D6911C483B8700355E4D /* Main.storyboard in Resources */,
+				0629D67A1C483B7800355E4D /* linearcongruencesScreenshot.png in Resources */,
+				0629D67C1C483B7800355E4D /* primesScreenshot.png in Resources */,
+				0629D68F1C483B8700355E4D /* Assets.xcassets in Resources */,
+				0629D6791C483B7800355E4D /* ldeScreenshot.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0629D6121C482DE900355E4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0629D61D1C482DE900355E4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0629D5FC1C482DE900355E4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0629D6961C483B8700355E4D /* LdeViewController.swift in Sources */,
+				0629D6971C483B8700355E4D /* linearcongruence.swift in Sources */,
+				0629D6981C483B8700355E4D /* LinearCongruenceViewController.swift in Sources */,
+				0629D69A1C483B8700355E4D /* primes.swift in Sources */,
+				0629D68E1C483B8700355E4D /* AppDelegate.swift in Sources */,
+				0629D69B1C483B8700355E4D /* PrimesViewController.swift in Sources */,
+				0629D6951C483B8700355E4D /* lde.swift in Sources */,
+				0629D6931C483B8700355E4D /* gcd.swift in Sources */,
+				0629D6991C483B8700355E4D /* modulo.swift in Sources */,
+				0629D6921C483B8700355E4D /* CongruenceViewController.swift in Sources */,
+				0629D6941C483B8700355E4D /* GcdViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0629D6101C482DE900355E4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0629D61B1C482DE900355E4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0629D6161C482DE900355E4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0629D5FF1C482DE900355E4D /* ElementaryNumberProblemSolver */;
+			targetProxy = 0629D6151C482DE900355E4D /* PBXContainerItemProxy */;
+		};
+		0629D6211C482DE900355E4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0629D5FF1C482DE900355E4D /* ElementaryNumberProblemSolver */;
+			targetProxy = 0629D6201C482DE900355E4D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0629D6801C483B8700355E4D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0629D6811C483B8700355E4D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		0629D6821C483B8700355E4D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0629D6831C483B8700355E4D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0629D6261C482DE900355E4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0629D6271C482DE900355E4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0629D6291C482DE900355E4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ElementaryNumberProblemSolver/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = s29xie.ElementaryNumberProblemSolver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		0629D62A1C482DE900355E4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ElementaryNumberProblemSolver/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = s29xie.ElementaryNumberProblemSolver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		0629D62C1C482DE900355E4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ElementaryNumberProblemSolverTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = s29xie.ElementaryNumberProblemSolverTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ElementaryNumberProblemSolver.app/ElementaryNumberProblemSolver";
+			};
+			name = Debug;
+		};
+		0629D62D1C482DE900355E4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ElementaryNumberProblemSolverTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = s29xie.ElementaryNumberProblemSolverTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ElementaryNumberProblemSolver.app/ElementaryNumberProblemSolver";
+			};
+			name = Release;
+		};
+		0629D62F1C482DE900355E4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ElementaryNumberProblemSolverUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = s29xie.ElementaryNumberProblemSolverUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ElementaryNumberProblemSolver;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		0629D6301C482DE900355E4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ElementaryNumberProblemSolverUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = s29xie.ElementaryNumberProblemSolverUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ElementaryNumberProblemSolver;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0629D5FB1C482DE800355E4D /* Build configuration list for PBXProject "ElementaryNumberProblemSolver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0629D6261C482DE900355E4D /* Debug */,
+				0629D6271C482DE900355E4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0629D6281C482DE900355E4D /* Build configuration list for PBXNativeTarget "ElementaryNumberProblemSolver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0629D6291C482DE900355E4D /* Debug */,
+				0629D62A1C482DE900355E4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0629D62B1C482DE900355E4D /* Build configuration list for PBXNativeTarget "ElementaryNumberProblemSolverTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0629D62C1C482DE900355E4D /* Debug */,
+				0629D62D1C482DE900355E4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0629D62E1C482DE900355E4D /* Build configuration list for PBXNativeTarget "ElementaryNumberProblemSolverUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0629D62F1C482DE900355E4D /* Debug */,
+				0629D6301C482DE900355E4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0629D5F81C482DE800355E4D /* Project object */;
+}
